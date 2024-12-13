@@ -9,36 +9,107 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="/">SlideGenius</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/pages/services.html">Services</a></li>
+                <li><a href="/pages/solutions.html">Solutions</a></li>
+                <li><a href="/pages/portfolio.html">Portfolio</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+            <div class="contact-info">
+                <span>1.858.217.5144</span>
+                <button class="cta-button">Start Your Project</button>
+            </div>
+        </nav>
+    </header>
 
     <main>
-        <section class="page-hero">
+        <section class="page-hero about-hero">
             <div class="hero-content">
-                <h1>About Us</h1>
-                <p>Creating impactful presentations since 2012</p>
+                <h1>About SlideGenius</h1>
+                <p>Transforming ideas into impactful visual stories since 2012</p>
             </div>
         </section>
 
-        <section class="about-content">
-            <div class="about-story">
-                <h2>Our Story</h2>
-                <p>Founded in 2012, SlideGenius has grown from a small team of passionate designers to a global presentation design agency...</p>
+        <section class="about-story">
+            <div class="container">
+                <div class="story-content slide-in">
+                    <h2>Our Story</h2>
+                    <p>Founded in 2012, SlideGenius has grown from a small team of passionate designers to a global presentation design agency serving Fortune 500 companies and innovative startups alike. Our mission is to transform complex ideas into compelling visual narratives that drive results.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Global Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="about-values">
+        <section class="values-section">
+            <div class="container">
                 <h2>Our Values</h2>
                 <div class="values-grid">
-                    <div class="value-card">
+                    <div class="value-card slide-in">
                         <i class="fas fa-star"></i>
                         <h3>Excellence</h3>
-                        <p>We strive for excellence in every project</p>
+                        <p>We strive for excellence in every project, delivering presentations that exceed expectations.</p>
                     </div>
-                    <!-- Add more value cards -->
+                    <div class="value-card slide-in">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovation</h3>
+                        <p>Pushing creative boundaries to create unique and impactful presentations.</p>
+                    </div>
+                    <div class="value-card slide-in">
+                        <i class="fas fa-users"></i>
+                        <h3>Collaboration</h3>
+                        <p>Working closely with clients to understand and achieve their goals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="container">
+                <h2>Our Global Team</h2>
+                <div class="team-grid">
+                    <div class="location-card slide-in">
+                        <img src="../images/about/san-diego.jpg" alt="San Diego Office">
+                        <h3>San Diego</h3>
+                        <p>Global Headquarters</p>
+                    </div>
+                    <div class="location-card slide-in">
+                        <img src="../images/about/london.jpg" alt="London Office">
+                        <h3>London</h3>
+                        <p>European Operations</p>
+                    </div>
+                    <div class="location-card slide-in">
+                        <img src="../images/about/singapore.jpg" alt="Singapore Office">
+                        <h3>Singapore</h3>
+                        <p>Asia Pacific Hub</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="../js/animations.js"></script>
 </body>
 </html> 

@@ -9,32 +9,101 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="../index.html">SlideGenius</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="contact-info">
+                <span class="phone-number">1.858.217.5144</span>
+                <button class="cta-button">Start Your Project</button>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
     <main>
-        <section class="page-hero">
+        <section class="page-hero solutions-hero">
             <div class="hero-content">
-                <h1>Solutions</h1>
-                <p>Tailored presentation solutions for every industry</p>
+                <h1>Industry Solutions</h1>
+                <p>Tailored presentation solutions for every business challenge</p>
             </div>
         </section>
 
-        <section class="solutions-grid">
-            <div class="solution-card">
-                <i class="fas fa-chart-line"></i>
-                <h3>Sales Enablement</h3>
-                <p>Empower your sales team with compelling presentations that drive results.</p>
-                <ul>
-                    <li>Sales decks</li>
-                    <li>Product presentations</li>
-                    <li>Training materials</li>
-                </ul>
-                <a href="#" class="learn-more">Learn More →</a>
+        <section class="solutions-grid-container">
+            <div class="solutions-grid">
+                <div class="solution-card slide-in">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Sales & Marketing</h3>
+                    <p>Drive revenue with compelling sales presentations and marketing materials.</p>
+                    <ul class="solution-features">
+                        <li>Sales Decks</li>
+                        <li>Product Launches</li>
+                        <li>Marketing Collateral</li>
+                        <li>Brand Guidelines</li>
+                    </ul>
+                    <a href="#" class="solution-cta">Learn More →</a>
+                </div>
+
+                <div class="solution-card slide-in">
+                    <div class="solution-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Financial Services</h3>
+                    <p>Communicate complex financial data with clarity and impact.</p>
+                    <ul class="solution-features">
+                        <li>Investor Decks</li>
+                        <li>Annual Reports</li>
+                        <li>Financial Reviews</li>
+                        <li>Board Presentations</li>
+                    </ul>
+                    <a href="#" class="solution-cta">Learn More →</a>
+                </div>
+
+                <div class="solution-card slide-in">
+                    <div class="solution-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Events & Conferences</h3>
+                    <p>Make a lasting impression at your next big event.</p>
+                    <ul class="solution-features">
+                        <li>Keynote Presentations</li>
+                        <li>Conference Materials</li>
+                        <li>Event Collateral</li>
+                        <li>Virtual Events</li>
+                    </ul>
+                    <a href="#" class="solution-cta">Learn More →</a>
+                </div>
             </div>
-            <!-- Add more solution cards -->
+        </section>
+
+        <section class="case-studies">
+            <div class="container">
+                <h2>Success Stories</h2>
+                <div class="case-studies-grid">
+                    <!-- Case studies will be loaded dynamically -->
+                </div>
+            </div>
         </section>
     </main>
 
     <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer content -->
+    </footer>
+
+    <script src="../js/animations.js"></script>
+    <script src="../js/solutions.js"></script>
 </body>
 </html> 
